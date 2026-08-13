@@ -1,0 +1,6 @@
+﻿-- chunkname: lib/units/enemies/tank/tankmediccopdamage.lua
+
+TankMedicCopDamage = TankMedicCopDamage or class(MedicDamage)
+TankMedicCopDamage.impact_body_distance = TankCopDamage.impact_body_distance
+TankMedicCopDamage._priority_bodies_ids = TankCopDamage._priority_bodies_ids
+TankMedicCopDamage.seq_clbk_vizor_shatter = TankCopDamage.seq_clbk_vizor_shatter

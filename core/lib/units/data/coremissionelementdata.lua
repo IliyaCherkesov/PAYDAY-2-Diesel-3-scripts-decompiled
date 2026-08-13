@@ -1,0 +1,12 @@
+﻿-- chunkname: core/lib/units/data/coremissionelementdata.lua
+
+CoreMissionElementData = CoreMissionElementData or class()
+MissionElementData = MissionElementData or class(CoreMissionElementData)
+
+function MissionElementData:init(...)
+	CoreMissionElementData.init(self, ...)
+end
+
+function CoreMissionElementData:init(unit)
+	return
+end

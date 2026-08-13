@@ -1,0 +1,55 @@
+﻿-- chunkname: lib/utils/accelbyte/telemetryconst.lua
+
+TelemetryConst = TelemetryConst or {
+	economy_origin = {
+		black_market_max_progress = "black_market_max_progress",
+		buy_crew_item = "buy_crew_item_",
+		buy_mask = "buy_mask_",
+		buy_mask_slot = "buy_mask_slot",
+		buy_mission_asset = "buy_mission_asset_",
+		buy_preplanning_types = "buy_preplanning_types",
+		buy_preplanning_votes = "buy_preplanning_votes",
+		buy_weapon_modification = "buy_weapon_modification_",
+		buy_weapon_platform = "buy_weapon_platform_",
+		buy_weapon_slot = "buy_weapon_slot",
+		civilian_killed = "civilian_killed",
+		complete_trophy = "complete_",
+		continue_crime_spree = "continue_crime_spree",
+		cosmetics_reward = "cosmetics_reward",
+		crime_spree_reroll = "crime_spree_reroll",
+		crime_spree_reward = "crime_spree_reward_",
+		increase_infamous = "increase_infamous",
+		initial_coins = "initial_coins",
+		job_reward = "job_reward",
+		loot_drop_cash = "loot_drop_cash",
+		milestone_award = "milestone_award_",
+		mission_complete_reward = "mission_complete_reward",
+		mission_reward = "mission_reward",
+		purchase_mask = "purchase_mask_",
+		purchase_room_tier = "purchase_room_tier",
+		purchase_weapon_mod = "purchase_weapon_mod_",
+		refund_crime_spree = "refund_crime_spree",
+		refund_mission_asset = "refund_mission_asset",
+		refund_weapon_part = "refund_weapon_part_",
+		respec_skilltree = "respec_skilltree_",
+		reward_daily = "reward_daily",
+		safehouse_raid_reward = "safehouse_raid_reward",
+		sell_mask = "sell_mask_",
+		sell_weapon = "sell_weapon_",
+		sell_weapon_part = "sell_weapon_part_",
+		sell_weapon_slot = "sell_weapon_slot",
+		skillpoint_spent = "skillpoint_spent_",
+		start_crime_spree = "start_crime_spree",
+		unlock_gage_asset = "unlock_gage_asset_",
+		unlock_skill_switch = "unlock_skill_switch_",
+		upgrade_points = "upgrade_points"
+	},
+	debug = {
+		economy_origin = {
+			give_safehouse_coins = "debug_give_safehouse_coins",
+			give_safehouse_coins_all = "debug_give_safehouse_coins_all",
+			job_completed = "debug_job_completed",
+			profile_get_cash = "debug_profile_get_cash"
+		}
+	}
+}

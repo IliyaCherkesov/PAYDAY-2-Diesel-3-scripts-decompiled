@@ -1,0 +1,15 @@
+﻿-- chunkname: lib/units/editor/gamedirectionelement.lua
+
+GameDirectionUnitElement = GameDirectionUnitElement or class(MissionElement)
+
+function GameDirectionUnitElement:init(unit)
+	MissionElement.init(self, unit)
+end
+
+function GameDirectionUnitElement:update_selected(t, dt)
+	return
+end
+
+function GameDirectionUnitElement:_build_panel(panel, panel_sizer)
+	return
+end
