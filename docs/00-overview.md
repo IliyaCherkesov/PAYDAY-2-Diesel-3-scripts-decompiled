@@ -169,3 +169,4 @@ These boundaries are useful research targets even when the cryptographic/platfor
 - [05-tdvs-network-validation.md](05-tdvs-network-validation.md) — multiplayer ownership tickets
 - [06-outfit-verification.md](06-outfit-verification.md) — received outfit validation
 - [07-open-questions.md](07-open-questions.md) — unresolved questions and research hypotheses
+- core and core/lib folders are decompiled scripts
