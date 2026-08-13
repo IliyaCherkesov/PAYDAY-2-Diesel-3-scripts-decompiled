@@ -1,0 +1,12 @@
+1. In CMD change directory to the same folder where script is and run:
+python pd2_crate_extract.py "(enter here full path to scripts.crate)SteamLibrary\steamapps\common\PAYDAY 2\assets\scripts.crate" -o "C:\PD2_scripts"
+
+Note: don't forget to put your right path to scripts.crate file, and if you wish you can change "C:\PD2_scripts" to wherever you want to have your extracted files
+
+2. Download https://github.com/marsinator358/luajit-decompiler-v2
+
+3. Do in CMD:
+mkdir C:\PD2_decompiled
+
+3. In the same folder where decompiler run in CMD:
+luajit-decompiler-v2.exe "C:\PD2_scripts" -o "C:\PD2_decompiled" -e lua -s
