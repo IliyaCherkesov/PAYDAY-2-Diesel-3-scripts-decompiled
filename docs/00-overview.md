@@ -68,7 +68,7 @@ dlc_data.verified
         |
         v
 GenericDLCManager:is_dlc_unlocked()
-
+```
 
 This state controls whether the local game considers DLC content available.
 
@@ -76,7 +76,7 @@ This state controls whether the local game considers DLC content available.
 
 Multiplayer validation has a separate path. Under Epic matchmaking (`IS_EPIC_MM`), the game uses TDVS, the Ticket DLC Validation System.
 
-
+```text
 platform secure ticket
         |
         v
@@ -110,6 +110,8 @@ TDVS:is_user_product_owned()
         |
         +--> mark_cheater() / optional autokick
 ```
+
+The important architectural consequence is that making content appear unlocked locally does not automatically make a remote peer consider that content owned.
 
 ## Main findings
 
@@ -169,4 +171,3 @@ These boundaries are useful research targets even when the cryptographic/platfor
 - [05-tdvs-network-validation.md](05-tdvs-network-validation.md) — multiplayer ownership tickets
 - [06-outfit-verification.md](06-outfit-verification.md) — received outfit validation
 - [07-open-questions.md](07-open-questions.md) — unresolved questions and research hypotheses
-- core and core/lib folders are decompiled scripts

@@ -232,7 +232,9 @@ A local client can consider an item available because its own `dlc_data.verified
 Therefore:
 
 ```text
-local "unlocked" != remote "ownership validated"
+local "unlocked"
+!=
+remote "ownership validated"
 ```
 
 See [05-tdvs-network-validation.md](05-tdvs-network-validation.md) and [06-outfit-verification.md](06-outfit-verification.md).

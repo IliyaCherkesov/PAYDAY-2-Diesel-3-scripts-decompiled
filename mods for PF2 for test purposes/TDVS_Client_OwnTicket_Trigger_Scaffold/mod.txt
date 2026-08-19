@@ -1,0 +1,13 @@
+{
+  "name": "TDVS Client Own-Ticket Trigger Scaffold",
+  "description": "Inert research scaffold. Observes own-ticket handoff and logs the control point. Does not delay, disconnect, replay, mutate tickets, or alter network payloads.",
+  "author": "OpenAI",
+  "version": "1.0",
+  "blt_version": 2,
+  "hooks": [
+    {
+      "hook_id": "lib/network/base/networkpeer",
+      "script_path": "lua/own_ticket_trigger_scaffold.lua"
+    }
+  ]
+}

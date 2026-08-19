@@ -1,0 +1,17 @@
+{
+  "name": "TDVS Client Join Phase Observer",
+  "description": "Passive client-side observer that marks the exact protocol phase after the client's auth ticket has reached the host and the host has replied to the join. No disconnect, delay, replay, ticket mutation, callback suppression, or network payload modification.",
+  "author": "OpenAI",
+  "version": "1.0",
+  "blt_version": 2,
+  "hooks": [
+    {
+      "hook_id": "lib/network/base/networkpeer",
+      "script_path": "lua/join_phase_observer.lua"
+    },
+    {
+      "hook_id": "lib/network/base/clientnetworksession",
+      "script_path": "lua/join_phase_observer.lua"
+    }
+  ]
+}
